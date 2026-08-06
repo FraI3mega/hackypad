@@ -1607,6 +1607,10 @@
 		(color 0 0 0 0)
 		(uuid "eb7acff6-8a89-428f-b976-5d8ecde9c490")
 	)
+	(no_connect
+		(at 74.93 78.74)
+		(uuid "938e6280-bdad-4179-8a10-a0d8bead8598")
+	)
 	(wire
 		(pts
 			(xy 167.64 104.14) (xy 167.64 127)
@@ -2563,7 +2567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2991,7 +2995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3253,7 +3257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 170.18 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3333,7 +3337,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 137.16 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3933,7 +3937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 170.18 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4013,7 +4017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:XIAO-Generic-Hybrid-14P-2.54-21X17.8MM"
 			(at 36.83 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4129,7 +4133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 170.18 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4282,94 +4286,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 43.18 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddef281e-c5e0-4bf2-8550-b2511a139193")
-		(property "Reference" "J1"
-			(at 45.72 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 45.72 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "b8f409e8-a8dd-41f2-9db0-4d06a10d18b7")
-		)
-		(pin "1"
-			(uuid "e29ddb8f-c3c6-4d1b-923f-52252ff3173c")
-		)
-		(pin "2"
-			(uuid "fec684e1-e0be-4763-9653-51d6d5c91e5d")
-		)
-		(pin "3"
-			(uuid "5c9ab368-5265-4247-8ed6-bfaaf5e6ac76")
-		)
-		(instances
-			(project "hackypad"
-				(path "/cd7e2b5b-f4a5-4b1a-b875-467cdf3ca38f"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
 		(at 99.06 53.34 0)
 		(unit 1)
@@ -4401,7 +4317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 95.25 49.276 0)
 			(hide yes)
 			(show_name no)
@@ -4594,7 +4510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4752,7 +4668,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4832,7 +4748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 137.16 129.54 0)
 			(hide yes)
 			(show_name no)
