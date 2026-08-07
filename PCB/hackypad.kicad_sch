@@ -1877,7 +1877,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 50.8 29.21 180)
+		(at 41.91 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1887,7 +1887,7 @@
 		)
 		(uuid "099241b2-43d6-4f01-b665-975bcd0ef5be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2467 29.21 0)
+			(at 35.3567 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2093,7 +2093,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 50.8 24.13 180)
+		(at 41.91 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2103,7 +2103,7 @@
 		)
 		(uuid "91aea5f0-524d-4ee6-9d9f-e8139d00b57f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.3072 24.13 0)
+			(at 35.4172 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,7 +2459,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 60.96 16.51 0)
+		(at 52.07 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2470,7 +2470,7 @@
 		(fields_autoplaced yes)
 		(uuid "06fcef80-f755-43ac-b908-309b49a95feb")
 		(property "Reference" "#PWR05"
-			(at 60.96 20.32 0)
+			(at 52.07 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2481,7 +2481,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 60.96 11.43 0)
+			(at 52.07 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2491,7 +2491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 16.51 0)
+			(at 52.07 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2502,7 +2502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 16.51 0)
+			(at 52.07 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2513,7 +2513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 60.96 16.51 0)
+			(at 52.07 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2567,7 +2567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch:SW_Cherry_MX_1.00u_PCB"
 			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2721,7 +2721,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 36.83 0)
+		(at 52.07 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2732,7 +2732,7 @@
 		(fields_autoplaced yes)
 		(uuid "3df31635-5db7-47a9-a3ab-abf2ea09692b")
 		(property "Reference" "#PWR04"
-			(at 60.96 43.18 0)
+			(at 52.07 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2743,7 +2743,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 41.91 0)
+			(at 52.07 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2753,7 +2753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 36.83 0)
+			(at 52.07 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2764,7 +2764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 36.83 0)
+			(at 52.07 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,7 +2775,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 36.83 0)
+			(at 52.07 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2799,7 +2799,7 @@
 	)
 	(symbol
 		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
-		(at 60.96 26.67 0)
+		(at 52.07 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2810,7 +2810,7 @@
 		(fields_autoplaced yes)
 		(uuid "44639a2a-87d9-4715-ba71-7c8be375ba28")
 		(property "Reference" "U2"
-			(at 69.85 25.3999 0)
+			(at 60.96 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2821,7 +2821,7 @@
 			)
 		)
 		(property "Value" "ER_OLEDM0.91_1x-I2C"
-			(at 69.85 27.9399 0)
+			(at 60.96 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2832,7 +2832,7 @@
 			)
 		)
 		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
-			(at 78.994 39.37 0)
+			(at 70.104 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2843,7 +2843,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
-			(at 103.632 41.402 0)
+			(at 94.742 54.102 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2854,7 +2854,7 @@
 			)
 		)
 		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
-			(at 87.63 43.434 0)
+			(at 78.74 56.134 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2995,7 +2995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3257,7 +3257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch:SW_Cherry_MX_1.00u_PCB"
 			(at 170.18 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3337,7 +3337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch:SW_Cherry_MX_1.00u_PCB"
 			(at 137.16 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3937,7 +3937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch:SW_Cherry_MX_1.00u_PCB"
 			(at 170.18 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4133,7 +4133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch:SW_Cherry_MX_1.00u_PCB"
 			(at 170.18 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4510,7 +4510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4668,7 +4668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch:SW_Cherry_MX_1.00u_PCB"
 			(at 153.67 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4748,7 +4748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "switch:SW_Cherry_MX_1.00u_PCB"
 			(at 137.16 129.54 0)
 			(hide yes)
 			(show_name no)
