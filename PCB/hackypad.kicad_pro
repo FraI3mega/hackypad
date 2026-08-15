@@ -547,7 +547,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "/home/franek/Downloads/",
+      "plot": "../production/",
       "specctra_dsn": "",
       "step": "hackypad.step",
       "vrml": ""

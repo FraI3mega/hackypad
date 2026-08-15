@@ -123,7 +123,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/franek/Downloads/")
+			(outputdirectory "../production/")
 		)
 	)
 	(footprint "Display:ER_OLEDM0.91_1x-I2C"
