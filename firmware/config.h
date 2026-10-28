@@ -1,8 +1,9 @@
-#define ENCODER_A_PINS { GP6 }
-#define ENCODER_B_PINS { GP5 }
-
 #pragma once
 
-// Turn off the screen after 60 seconds of inactivity to prevent burn-in
-#define OLED_TIMEOUT 60000 
+#define ENCODER_A_PINS {GP3}
+#define ENCODER_B_PINS {GP4}
 
+#define I2C_DRIVER I2CD1
+#define I2C1_SDA_PIN GP6
+#define I2C1_SCL_PIN GP7
+#define OLED_DISPLAY_128X32

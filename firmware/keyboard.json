@@ -12,14 +12,14 @@
     },
     "matrix_pins": {
         "cols": [
-            "GP11",
-            "GP8",
-            "GP9"
+            "GP29",
+            "GP0",
+            "GP1"
         ],
         "rows": [
-            "GP2",
-            "GP4",
-            "GP10"
+            "GP26",
+            "GP27",
+            "GP28"
         ]
     },
     "processor": "RP2040",
@@ -27,7 +27,7 @@
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",
-        "vid": "0xFEED"
+        "vid": "0xFE3D"
     },
     "layouts": {
         "LAYOUT_ortho_3x3": {
