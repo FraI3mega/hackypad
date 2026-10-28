@@ -2,7 +2,7 @@
 
 A simple little 8-key macropad based on the RP2040 running qmk firmware
 
-![side view](./assets/cad-side.png)
+![A image showing off the hackypad](./assets/hero.jpg)
 
 ## Features
 
@@ -13,7 +13,7 @@ A simple little 8-key macropad based on the RP2040 running qmk firmware
 ## CAD Model
 
 ![top view](./assets/Cad-top.png)
-
+![side view](./assets/cad-side.png)
 ## PCB
 
 ![PCB](./assets/pcb.png)
