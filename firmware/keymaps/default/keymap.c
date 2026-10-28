@@ -25,7 +25,7 @@ const uint16_t PROGMEM encoder_map[][1][2] = {
 #ifdef OLED_ENABLE
 bool oled_task_user(void) {
   // Host Keyboard Layer Status
-  oled_write_P(PSTR("OLED_test OK"), false);
+  oled_write_P(PSTR("HACKYPAD :D"), false);
 
   // switch (get_highest_layer(layer_state)) {
   //     case _BASE:
