@@ -4,6 +4,11 @@ A simple little 8-key macropad based on the RP2040 running qmk firmware
 
 ![A image showing off the hackypad](./assets/hero.jpg)
 
+
+## See it in action
+
+![video showing off the hackypad](./assets/demo_c.mp4)
+
 ## Features
 
 - 8 Programmable keys
